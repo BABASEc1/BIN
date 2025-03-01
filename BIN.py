@@ -7,7 +7,7 @@ os.system('xdg-open https://facebook.com/hackerbaba4')
 os.system("clear")
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from BIN import BIN
+    from Binchecker import BIN
     BIN()
 elif bit == '32bit':
     print("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
